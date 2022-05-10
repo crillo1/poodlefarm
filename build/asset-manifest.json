@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.244aa8f6.chunk.css",
+    "main.js": "/static/js/main.016f7b40.chunk.js",
+    "main.js.map": "/static/js/main.016f7b40.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.389231ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.389231ea.js.map",
+    "static/js/2.252503bf.chunk.js": "/static/js/2.252503bf.chunk.js",
+    "static/js/2.252503bf.chunk.js.map": "/static/js/2.252503bf.chunk.js.map",
+    "static/js/3.8f8328dd.chunk.js": "/static/js/3.8f8328dd.chunk.js",
+    "static/js/3.8f8328dd.chunk.js.map": "/static/js/3.8f8328dd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.244aa8f6.chunk.css.map": "/static/css/main.244aa8f6.chunk.css.map",
+    "static/js/2.252503bf.chunk.js.LICENSE.txt": "/static/js/2.252503bf.chunk.js.LICENSE.txt",
+    "static/media/FullLogo.ec341c2e.png": "/static/media/FullLogo.ec341c2e.png",
+    "static/media/index.css": "/static/media/caiback.cbfaf224.png",
+    "static/media/img1.0b857a7f.png": "/static/media/img1.0b857a7f.png",
+    "static/media/logo.b35b0f4a.png": "/static/media/logo.b35b0f4a.png",
+    "static/media/nutrition.2ba1a320.jpg": "/static/media/nutrition.2ba1a320.jpg",
+    "static/media/profit.3509a351.png": "/static/media/profit.3509a351.png",
+    "static/media/treasury.d27cf6c3.png": "/static/media/treasury.d27cf6c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.389231ea.js",
+    "static/js/2.252503bf.chunk.js",
+    "static/css/main.244aa8f6.chunk.css",
+    "static/js/main.016f7b40.chunk.js"
+  ]
+}
