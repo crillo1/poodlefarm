@@ -184,8 +184,12 @@ export default function BakeCard() {
           <div style={{display: "flex"}}>
             <img src={treasuryImg}></img>
             <div>
-              <h5>Contract balance</h5>
-              <h5>4000 ECH</h5>
+              {<div className="dataRow">
+              <div className="name"><h5>Contract holdings</h5>
+              </div>
+              <div className="value"><h5>{contractBNB} ECH</h5></div>
+
+            </div>}
             </div>
           </div>
           <Box paddingTop={1}>
@@ -203,7 +207,7 @@ export default function BakeCard() {
           <Box paddingTop={1}>
             <div className="dataRow">
               <div className="name">APR</div>
-              <div className="value">1960 %</div>
+              <div className="value">1,880 %</div>
             </div>
             <div className="dataRow">
               <div className="name">Dev</div>
@@ -216,21 +220,21 @@ export default function BakeCard() {
         <div className="box leftBox">
           {loading && <LinearProgress color="secondary" />}
           <Typography variant="h5" style={{color:"white", fontFamily:"sans-serif", fontSize:"25px"}}>
-            <b>CAI WILL GRILL YOUR FISH</b>
+            <b>CHEF CAI WILL GRILL YOUR FISH</b>
           </Typography>
           <div>
-            {/* <div className="dataRow">
+            {/*<div className="dataRow">
               <div className="name">Contract</div>
               <div className="value">{contractBNB} BNB</div>
-            </div> */}
+              </div>*/}
             <div style={{color:"blue", marginTop:"20px"}}>Your stats</div>
             <div className="dataRow">
               <div className="name">Wallet</div>
               <div className="value">{walletBalance.bnb} ECH</div>
             </div>
             <div className="dataRow">
-              <div className="name"></div>
-              <div className="value">{walletBalance.beans} </div>
+              <div className="name"> Your fishes</div>
+              <div className="value">{walletBalance.beans}</div>
             </div>
 
             <Box >
@@ -254,12 +258,12 @@ export default function BakeCard() {
                 </Button>
               </Box>
               {/* <Divider /> */}
-              {/* <div className="dataRow">
-                <div className="name">Your Rewards</div>
-                <div className="value">{walletBalance.rewards} BNB</div>
-              </div> */}
+              {<div className="dataRow">
+                <div className="name"><h4>Rewards:</h4></div>
+                <div className="value"><h4>{walletBalance.rewards} ECH</h4></div>
+              </div>}
 
-              {/* <ButtonContainer container>
+              {<ButtonContainer container>
                 <Grid item flexGrow={1} marginRight={1} marginTop={3}>
                   <Button
                     className="button1"
@@ -269,7 +273,7 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={reBake}
                   >
-                    <b>RE-STACK</b>
+                    <b>RE-GRILL</b>
                   </Button>
                 </Grid>
                 <Grid item flexGrow={1} marginLeft={1} marginTop={3}>
@@ -281,14 +285,14 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={eatBeans}
                   >
-                    <b>EAT CHEESE</b>
+                    <b>EAT FISH</b>
                   </Button>
                 </Grid>
-              </ButtonContainer> */}
+              </ButtonContainer>}
             </Box>
           </div>
         </div>
-        <div className="box leftBox">
+        {/*<div className="box leftBox">
           <Typography variant="h5" style={{color:"white", fontFamily:"sans-serif", fontSize:"25px"}}>
             <b>Your Rewards:</b>
           </Typography>
@@ -309,7 +313,7 @@ export default function BakeCard() {
               <div className="name"></div>
               <div className="value"></div>
             </div>
-          </div>
+          </div>}
           <ButtonContainer container>
               <Grid item flexGrow={1} marginRight={1} marginTop={3}>
                 <Button
@@ -335,9 +339,8 @@ export default function BakeCard() {
                   <b>EAT FISH</b>
                 </Button>
               </Grid>
-          </ButtonContainer>
+          </ButtonContainer>*/}
         </div>
       </div>
-    </div>
   );
 }

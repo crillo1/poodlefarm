@@ -25,7 +25,7 @@ export default function PriceInput({ value, max, onChange = () => {} }) {
     <Box position="relative" style={{marginTop:"20px"}}>
       
       <Typography
-        fontSize={18}
+        fontSize={20}
         position="absolute"
         top={9}
         right={18}

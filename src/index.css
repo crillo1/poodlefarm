@@ -104,7 +104,7 @@ code {
 }
 
 .home .header .walletWrapper {
-  /* font-family: cursive; */
+  font-family: cursive;
   font-family: "mooncheese";
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -193,6 +193,7 @@ code {
 }
 
 .home .auxContent {
+  justify-content: space-between;
   width: 700px;
   max-width: 100%;
   margin: 50px auto 0;
@@ -201,6 +202,7 @@ code {
   align-items: stretch;
   grid-gap: 20px;
   gap: 20px;
+  padding: 25px;
 }
 
 @media (max-width: 765px) {
@@ -220,6 +222,7 @@ code {
 }
 
 .home .auxContent h5 {
+  justify-content: space-between;
   font-family: sans-serif;
     font-weight: bold;
     color: white;
@@ -260,6 +263,7 @@ code {
 }
 
 .home .contractInfoCard {
+  justify-content: space-between;
   background: #59aa7b;
 }
 
@@ -362,8 +366,8 @@ a {
 }
 
 .button1 {
-  /* color: #731c00 !important; */
-  /* box-shadow: none !important; */
+  color: #71fe6c !important;
+  box-shadow: none !important;
   border: 2px solid #000000 !important;
   border-radius: 5px !important;
   background: transparent !important;
@@ -371,7 +375,7 @@ a {
 }
 
 .button1:hover {
-  color: #71fe6c !important;
+  color: #dc6cfe !important;
   border: 2px solid #71fe6c;
   border-radius: 5px !important;
 }

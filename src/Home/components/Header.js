@@ -23,7 +23,7 @@ export default function Header() {
       <img src={logo} alt="" width={"100%"} style={{ marginTop: -48 }} />
       <Connect responsive={false} />
       <Typography variant="h6" marginTop={-3} style={{color: "#febf33"}}>
-        The BNB Reward Pool with the 10% daily return and 13% referral rewards and lowest dev fee
+        Chef Cai will grill your fish for a very low fee and a 5% daily return
       </Typography>
       <div>
         <Grid container direction="row" spacing={2} style={{width:"100%", display:"flex", justifyContent:"space-evenly"}}>
