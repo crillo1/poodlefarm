@@ -258,17 +258,17 @@ code {
 .home .leftBox {
   padding: 25px;
   /* background: #FA89F6; */
-  background: #59aa7b;
+  background: #c6427b;
   border-radius: 20px;
 }
 
 .home .contractInfoCard {
   justify-content: space-between;
-  background: #59aa7b;
+  background: #c6427b;
 }
 
 .home .profitInfoCard {
-  background: #59aa7b;
+  background: #c6427b;
 }
 
 .home .dataRow {
@@ -319,7 +319,7 @@ code {
 .home .referral {
   /* font-family: cursive; */
   width: 800px;
-  background: #59aa7b;
+  background: #c6427b;
   border-radius: 20px;
   padding: 20px;
   margin-top: 20px;
@@ -366,7 +366,7 @@ a {
 }
 
 .button1 {
-  color: #71fe6c !important;
+  color: #ff5afe !important;
   box-shadow: none !important;
   border: 2px solid #000000 !important;
   border-radius: 5px !important;
@@ -375,7 +375,7 @@ a {
 }
 
 .button1:hover {
-  color: #dc6cfe !important;
+  color: #ffffff !important;
   border: 2px solid #71fe6c;
   border-radius: 5px !important;
 }

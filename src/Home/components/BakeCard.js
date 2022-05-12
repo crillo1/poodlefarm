@@ -185,9 +185,9 @@ export default function BakeCard() {
             <img src={treasuryImg}></img>
             <div>
               {<div className="dataRow">
-              <div className="name"><h5>Contract holdings</h5>
+              <div className="name"><h5>Poodle Contract</h5>
               </div>
-              <div className="value"><h5>{contractBNB} ECH</h5></div>
+              <div className="value"><h5>{contractBNB} BNB</h5></div>
 
             </div>}
             </div>
@@ -200,18 +200,18 @@ export default function BakeCard() {
           <div style={{display: "flex"}}>
             <img src={profitImg}></img>
             <div>
-              <h5>Daily ROI</h5>
-              <h6>5 %</h6>
+              <h5>Daily Returns</h5>
+              <h5>5 %</h5>
             </div>
           </div>
           <Box paddingTop={1}>
             <div className="dataRow">
-              <div className="name">APR</div>
-              <div className="value">1,880 %</div>
+              <div className="name"><h5>APR</h5></div>
+              <div className="value"><h5>1,880 %</h5></div>
             </div>
             <div className="dataRow">
-              <div className="name">Dev</div>
-              <div className="value">4 %</div>
+              <div className="name"><h5>Dev</h5></div>
+              <div className="value"><h5>4 %</h5></div>
             </div>
           </Box>
         </div>
@@ -220,21 +220,21 @@ export default function BakeCard() {
         <div className="box leftBox">
           {loading && <LinearProgress color="secondary" />}
           <Typography variant="h5" style={{color:"white", fontFamily:"sans-serif", fontSize:"25px"}}>
-            <b>CHEF CAI WILL GRILL YOUR FISH</b>
+            <b>STATS</b>
           </Typography>
           <div>
             {/*<div className="dataRow">
               <div className="name">Contract</div>
               <div className="value">{contractBNB} BNB</div>
               </div>*/}
-            <div style={{color:"blue", marginTop:"20px"}}>Your stats</div>
+            <div style={{color:"blue", marginTop:"20px"}}></div>
             <div className="dataRow">
-              <div className="name">Wallet</div>
-              <div className="value">{walletBalance.bnb} ECH</div>
+              <div className="name"><h5>Wallet</h5></div>
+              <div className="value">{walletBalance.bnb} <b>BNB</b></div>
             </div>
             <div className="dataRow">
-              <div className="name"> Your fishes</div>
-              <div className="value">{walletBalance.beans}</div>
+              <div className="name"> <h5>Your pancakes</h5></div>
+              <div className="value">{walletBalance.beans} </div>
             </div>
 
             <Box >
@@ -254,13 +254,13 @@ export default function BakeCard() {
                   disabled={wrongNetwork || !address || +bakeBNB === 0 || loading}
                   onClick={bake}
                 >
-                  <b>GRILL FISH</b>
+                  <b>BAKE CAKE</b>
                 </Button>
               </Box>
               {/* <Divider /> */}
               {<div className="dataRow">
                 <div className="name"><h4>Rewards:</h4></div>
-                <div className="value"><h4>{walletBalance.rewards} ECH</h4></div>
+                <div className="value"><h4>{walletBalance.rewards} BNB</h4></div>
               </div>}
 
               {<ButtonContainer container>
@@ -273,7 +273,7 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={reBake}
                   >
-                    <b>RE-GRILL</b>
+                    <b>RE-BAKE</b>
                   </Button>
                 </Grid>
                 <Grid item flexGrow={1} marginLeft={1} marginTop={3}>
@@ -285,7 +285,7 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={eatBeans}
                   >
-                    <b>EAT FISH</b>
+                    <b>EAT CAKE</b>
                   </Button>
                 </Grid>
               </ButtonContainer>}

@@ -33,7 +33,7 @@ export default function PriceInput({ value, max, onChange = () => {} }) {
         color="#f6f454"
         fontFamily={"mooncheese"}
       >
-        ECH amount
+        BNB amount
       </Typography>
 
       <BnbInput

@@ -40,7 +40,7 @@ export default function ReferralLink({ address }) {
   return (
     <div className="referral">
       <h1>Referral Link</h1>
-      <p>Earn 11% of the ECH used by your referral to buy and grill fish</p>
+      <p><h5>Earn 9% of the BNB used by your referral to buy and bake cake</h5></p>
       <div class="refWrapper">
         <Input value={address ? link : ""} readOnly />
         <div 
